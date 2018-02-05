@@ -1,1 +1,1 @@
-# vvipul-github.io
+# vvipul.github.io
