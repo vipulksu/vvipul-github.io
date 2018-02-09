@@ -1,0 +1,56 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+header {
+    background-color: yellow;
+    color: blue;
+    padding: 15px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+font-family: 'Raleway', sans-serif;
+}   
+
+.image1 {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.image2 {
+    float: right;
+    width: 80px;
+    height: 80px;
+}
+
+
+nav {
+    font-family: 'Anton', sans-serif;
+    overflow: hidden;
+    background-color: white;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    max-width: 500px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer {
+    background-color: yellow;
+    color: red;
+    padding: 15px;
+}
