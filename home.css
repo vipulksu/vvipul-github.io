@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+header, footer {
+    background: linear-gradient(to right, orange, yellow);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+h1{
+    text-shadow: 2px 2px red;
+}
+
+h2{
+    text-shadow: 2px 2px orange;
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Exo', sans-serif;
+}   
+
+
+nav {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    overflow: hidden;
+    background-color: white;    
+    padding: 20px;
+
+}
+
+menu {
+    text-align: left;
+    font-family: 'Russo One', sans-serif;
+}
+
+
+
+section{
+    padding: 5px 50px;
+}
+
+
+
+
+.row:after {
+    content: ""; 
+    clear: both; 
+    display: block;
+}
+
+
+[class*="col-"]  {
+    float: left; 
+    width: 100%;
+    margin: 0;
+}
+
+
+
+img {
+    width: 250px;
+    height: 250px;
+    padding: 35px;
+    margin-left: 35px;
+}
+
+
+.dsk {display: none;}
+.mob {display: block;}
+
+
+
+@media screen and (min-width: 1024px)
+{
+    .dsk {display: block;}
+    header img {margin: auto;}
+    
+    
+.col-d-1 {width: 8.33%;}
+.col-d-2 {width: 16.66%;}
+.col-d-3 {width: 25%;}
+.col-d-4 {width: 33.33%;}
+.col-d-5 {width: 41.66%;}
+.col-d-6 {width: 50%;}
+.col-d-7 {width: 58.33%;}
+.col-d-8 {width: 66.66%;}
+.col-d-9 {width: 75%;}
+.col-d-10 {width: 83.33%;}
+.col-d-11 {width: 91.66%;}
+.col-d-12 {width: 100%;}
+}
+
